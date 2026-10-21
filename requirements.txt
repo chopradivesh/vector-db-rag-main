@@ -1,0 +1,5 @@
+fastapi>=0.110        # REST API (replaces cpp-httplib + hand-written JSON)
+uvicorn>=0.29         # ASGI server that runs the FastAPI app
+httpx>=0.27           # HTTP client for Ollama (also used by FastAPI's TestClient)
+python-dotenv>=1.0    # loads settings from .env
+pytest>=8.0           # tests
